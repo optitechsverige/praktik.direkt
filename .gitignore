@@ -1,0 +1,159 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
+.pnp.cjs
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production
+build/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vite
+.vite/
+.vite-ssr-
+
+# Cache directories
+.npm
+.eslintcache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Netlify
+.netlify
+.netlify/*
+
+# Build files
+.next
+.nuxt
+.cache
+.temp
+.tmp
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn and pnpm
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Debug logs from testing tools
+/cypress/videos/
+/cypress/screenshots/
+
+# Local Netlify folder
+.netlify
+
+# Next.js
+.next/
+out/
+
+# Remix
+.remix
+
+# Svelte
+.svelte-kit
+
+# Vercel
+.vercel
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Cypress
+cypress/
+
+# Playwright
+playwright-report/
+playwright/.cache/
+
+# Jest
+jest-cache/
+
+# Parcel
+.parcel-cache/
+
+# ESLint and Prettier
+.eslintcache
+.prettiercache
+
+# TypeScript
+*.tsbuildinfo
+
+# Build output
+.next
+.nuxt
+.cache
+.temp
+.tmp
+
+# Misc
+.cache
+.parcel-cache
+.rts2_cache
+.history/
+*.sublime-workspace
+*.sublime-project
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

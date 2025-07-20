@@ -1,0 +1,86 @@
+# Ignore everything
+*.*
+
+# Allow build output
+!dist/
+!dist/**/*
+
+# Allow public assets
+!public/
+!public/**/*
+
+# Allow HTML files
+!*.html
+
+# Allow JS/CSS files
+!*.js
+!*.css
+!*.jsx
+!*.ts
+!*.tsx
+
+# Allow JSON files
+!*.json
+
+# Allow image files
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!*.ico
+!*.webp
+
+# Allow font files
+!*.woff
+!*.woff2
+!*.ttf
+!*.eot
+
+# Allow other necessary files
+!robots.txt
+!sitemap.xml
+!favicon.ico
+
+# Ignore development files
+.git
+.gitignore
+.editorconfig
+.eslintrc
+.prettierrc
+.prettierignore
+.vscode/
+.idea/
+*.log
+.DS_Store
+
+# Ignore all node_modules
+node_modules/
+
+# Ignore test files
+**/__tests__/
+**/*.test.*
+**/*.spec.*
+
+# Ignore Vite cache
+.vite/
+
+# Ignore environment files (except production)
+!.env.production
+!.env.production.local
+
+# Ignore documentation
+README.md
+CHANGELOG.md
+LICENSE
+
+# Ignore CI/CD files
+.github/
+.gitlab-ci.yml
+.travis.yml
+.netlify/
+
+# Ignore other build tools
+webpack.config.js
+vite.config.js
+tsconfig.json
